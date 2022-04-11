@@ -1,0 +1,92 @@
+//----------------- Theme properties -----------------
+title=SimpleDark
+author=Jairo Chaves
+parent=default
+
+
+//----------------- Colors -----------------
+
+// View colors - internal area and border
+ViewBack = black
+ViewText = white
+
+// general colors
+Back         = black
+Text         = white
+DisabledText = white
+DisabledBack = black bold
+
+// editable & listbox-like controls (interactive ones)
+EditBack       = black
+EditText       = white
+EditActiveBack = black bold 
+EditActiveText = cyan
+SelectionText  = black
+SelectionBack  = cyan
+
+// scroll control
+ScrollText = white
+ScrollBack = black bold
+ThumbText  = white bold
+ThumbBack  = white
+
+// window-like controls (checkbox, radiogroup...)
+ControlText         = white
+ControlBack         = black bold
+ControlActiveBack   = black bold
+ControlActiveText   = cyan
+ControlDisabledBack = cyan bold
+ControlDisabledText = black bold
+ControlShadow       = black
+
+// progressbar control
+ProgressBack       = black bold
+ProgressText       = black
+ProgressActiveBack = cyan
+ProgressActiveText = black bold
+
+// button control
+ButtonBack=white 
+ButtonText=black
+ButtonActiveBack=cyan
+ButtonActiveText=black
+ButtonShadowBack=black
+ButtonDisabledText=black bold
+ButtonDisabledBack=white
+
+// bar chart control
+BarChartBack=black
+BarChartText=white
+
+// spark chart
+SparkChartBack=black
+SparkChartText=white
+SparkChartBarBack=black
+SparkChartBarText=cyan
+SparkChartMaxBack=black
+SparkChartMaxText=cyan bold
+
+// table view
+TableText=white
+TableBack=black
+TableSelectedText=white
+TableSelectedBack=black bold
+TableActiveCellText=white bold
+TableActiveCellBack=black bold
+TableLineText=white
+TableHeaderText=white
+TableHeaderBack=black
+
+//----------------- Objects -----------------
+SingleBorder=─│┌┐└┘
+DoubleBorder=═║╔╗╚╝
+Edit=←→V*
+ScrollBar=░■▲▼◄►
+ViewButtons=^_■[]
+CheckBox=[] X?
+Radio=() *
+ProgressBar=░▒
+BarChart=█─│┌┐└┘┬┴├┤┼
+SparkChart=█
+TableView=─│┼▼▲
+
